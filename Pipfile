@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
+codecov = "*"
+pytest-django = "*"
+
+[packages]
+django = "*"
+dj-database-url = "*"
+python-decouple = "*"
+psycopg2-binary = "*"
+uuid = "*"
+gunicorn = "*"
+django-s3-folder-storage = "*"
+collectfast = "*"
+
+[requires]
+python_version = "3.6"
